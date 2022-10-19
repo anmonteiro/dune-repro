@@ -1,0 +1,8 @@
+(executable
+  (public_name repro)
+  (libraries dune-site))
+
+(generate_sites_module
+ (module repro_sites)
+ (sourceroot))
+
